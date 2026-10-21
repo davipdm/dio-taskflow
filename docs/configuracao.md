@@ -36,14 +36,15 @@ disponível, os testes locais continuam funcionando sem o Gemini.
 
 ## 4. Arquivo local
 
-O `.env` preparado nesta máquina tem as mesmas variáveis do `.env.exemplo`,
-com os campos de chave/token vazios. Preencha-o no editor local e salve.
+Copie `.env.exemplo` para `.env` e preencha-o no editor local.
+O exemplo abaixo usa um quadro chamado `DIO`; ajuste o nome para o seu quadro.
+A configuração padrão do `.env.exemplo` usa `DIO TaskFlow`.
 
 ```dotenv
 GOOGLE_API_KEY=
 TRELLO_API_KEY=
 TRELLO_TOKEN=
-TRELLO_BOARD_NAME=DIO TaskFlow
+TRELLO_BOARD_NAME=DIO
 APP_TIMEZONE=America/Sao_Paulo
 ```
 

@@ -177,3 +177,10 @@ O restante do projeto de pegada de carbono não foi incluído.
 Nunca publique `.env`, tokens, chaves ou prints que os revelem. O token Trello
 pode conceder acesso a mais quadros da conta; o aplicativo restringe operações
 ao quadro configurado, mas isso não limita o alcance do token fora dele.
+
+## Situação da entrega
+
+Código, testes e documentação publicados. A criação, listagem e movimentação
+foram validadas no Trello real. A conversa completa com Gemini permaneceu
+pendente devido a HTTP 503 nas duas tentativas registradas. Consulte o
+[registro de encerramento](docs/encerramento.md) para reproduzir o ambiente.
