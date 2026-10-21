@@ -1,0 +1,3 @@
+Falha de servi�o: ServerError
+C�digo HTTP: 503
+Detalhes omitidos para proteger credenciais.

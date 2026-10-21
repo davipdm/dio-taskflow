@@ -139,7 +139,9 @@ Após configurar as credenciais, valide o quadro real:
 O card de teste fica no quadro como evidência e pode ser arquivado manualmente.
 O roteiro da conversa e dos prints está em [validacao.md](docs/validacao.md).
 Resultados efetivamente executados estão em [docs/evidencias](docs/evidencias/README.md).
-A integração real está pendente de configuração das contas e credenciais.
+A integração real com Trello foi validada (criação, listagem e movimentação).
+A conversa com Gemini ainda está pendente: as duas tentativas retornaram HTTP 503
+por sobrecarga temporária do modelo; consulte as evidências.
 
 ![ADK Web carregado com o TaskFlow, antes de configurar as credenciais](docs/evidencias/adk-web.jpg)
 
