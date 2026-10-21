@@ -1,0 +1,22 @@
+test_dst_gap_and_ambiguous_hour_rejected (test_taskflow.DateTests.test_dst_gap_and_ambiguous_hour_rejected) ... ok
+test_end_of_day_rolls_utc_forward_but_preserves_local_day (test_taskflow.DateTests.test_end_of_day_rolls_utc_forward_but_preserves_local_day) ... ok
+test_invalid_dates_and_hours (test_taskflow.DateTests.test_invalid_dates_and_hours) ... ok
+test_midnight_does_not_become_previous_local_day (test_taskflow.DateTests.test_midnight_does_not_become_previous_local_day) ... ok
+test_accents_spaces_and_aliases (test_taskflow.ServiceTests.test_accents_spaces_and_aliases) ... ok
+test_card_outside_configured_board_is_not_moved (test_taskflow.ServiceTests.test_card_outside_configured_board_is_not_moved) ... ok
+test_create_list_move_and_reopen (test_taskflow.ServiceTests.test_create_list_move_and_reopen) ... ok
+test_duplicate_board_names_require_id (test_taskflow.ServiceTests.test_duplicate_board_names_require_id) ... ok
+test_empty_title_rejected_before_network (test_taskflow.ServiceTests.test_empty_title_rejected_before_network) ... ok
+test_invalid_status_is_not_silently_all (test_taskflow.ServiceTests.test_invalid_status_is_not_silently_all) ... ok
+test_missing_board (test_taskflow.ServiceTests.test_missing_board) ... ok
+test_missing_or_duplicate_status_lists (test_taskflow.ServiceTests.test_missing_or_duplicate_status_lists) ... ok
+test_same_titles_can_be_selected_by_id (test_taskflow.ServiceTests.test_same_titles_can_be_selected_by_id) ... ok
+test_external_errors_do_not_leak_secrets (test_taskflow.ToolTests.test_external_errors_do_not_leak_secrets) ... ok
+test_missing_credentials_are_explained (test_taskflow.ToolTests.test_missing_credentials_are_explained) ... ok
+test_temporal_context_has_configured_timezone (test_taskflow.ToolTests.test_temporal_context_has_configured_timezone) ... ok
+test_wrapped_tool_preserves_parameters_for_adk (test_taskflow.ToolTests.test_wrapped_tool_preserves_parameters_for_adk) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.017s
+
+OK
